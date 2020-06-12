@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     dockerImage = docker.build('krravindra/kubernetes-clusters-demo:lastest')
-                    docker.withRegistry('', 'dockerhub') {
+                    docker.withRegistry('', 'docker') {
                         dockerImage.push()
                     }
                 }
