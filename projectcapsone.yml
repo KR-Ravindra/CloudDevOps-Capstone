@@ -340,7 +340,7 @@ Resources:
         SecurityGroupIds:
         - !Ref JenkinsSecurityGroup
         SubnetId: !Ref PublicSubnet1
-        ImageId: ami-003634241a8fcdec0
+        ImageId: ami-07c1207a9d40bc3bd 
         IamInstanceProfile: !Ref NodeInstanceProfile
         InstanceType: !Ref InstanceType
         KeyName: capstone
