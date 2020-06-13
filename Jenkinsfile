@@ -34,7 +34,7 @@ pipeline {
 			sh '''
 			aws eks --region us-east-2 update-kubeconfig --name KubsCluster
 			kubectl apply -f ./kubernetes-config.yml
-            kubectl get deployements | sample.txt
+            kubectl get deployements | cat > sample.txt
 			'''
             echo sample.txt
                       }
