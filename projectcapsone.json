@@ -1,12 +1,12 @@
 [
-  {
-    "ParameterKey": "EnvironmentName",
-    "ParameterValue": "DevOpsProjectCapsone"
-  },
-  {
-    "ParameterKey": "VpcCIDR",
-    "ParameterValue": "10.0.0.0/16"
-  },
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "Assignment"
+	},
+	{
+		"ParameterKey": "VpcCIDR",
+		"ParameterValue": "10.0.0.0/16"
+	},
 	{
 		"ParameterKey": "PublicSubnet1CIDR",
 		"ParameterValue": "10.0.0.0/24"
@@ -23,8 +23,8 @@
 		"ParameterKey": "PrivateSubnet2CIDR",
 		"ParameterValue": "10.0.3.0/24"
 	},
-  {
-    "ParameterKey": "InstanceType",
-    "ParameterValue": "t3.medium"
-  }
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t3.medium"
+	}
 ]

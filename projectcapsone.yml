@@ -345,7 +345,7 @@ Resources:
         InstanceType: !Ref InstanceType
         KeyName: capstone
         Tags:
-          - Key: !Sub kubernetes.io/cluster/KubsCluster
+          - Key: !Sub kubernetes.io/cluster/task
             Value: owned
 
 
