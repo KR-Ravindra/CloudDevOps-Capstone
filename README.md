@@ -1,7 +1,7 @@
 # Capstone Project - Cloud DevOps Engineer Nanodegree (Udacity)
 
 
-Result: ![Image](./Screenshots/JenkinsPipeline.png)
+Result: ![Image](./Images/pipeline.png)
 
 Files:
 ```
